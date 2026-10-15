@@ -10,3 +10,5 @@ CREATE TABLE IF NOT EXISTS library(user_id TEXT PRIMARY KEY REFERENCES accounts(
 CREATE TABLE IF NOT EXISTS limits(key TEXT PRIMARY KEY,count INTEGER NOT NULL,expires INTEGER NOT NULL);
 CREATE INDEX IF NOT EXISTS limits_expiry ON limits(expires);
 CREATE INDEX IF NOT EXISTS sessions_expiry ON sessions(expires);
+CREATE TABLE IF NOT EXISTS public_lists(id TEXT PRIMARY KEY,owner TEXT NOT NULL REFERENCES accounts(id) ON DELETE CASCADE,local_id TEXT NOT NULL,name TEXT NOT NULL,items TEXT NOT NULL,created INTEGER NOT NULL,updated INTEGER NOT NULL,UNIQUE(owner,local_id));
+CREATE INDEX IF NOT EXISTS public_lists_owner ON public_lists(owner);
