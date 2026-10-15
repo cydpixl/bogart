@@ -1,9 +1,12 @@
 {
-  "version": "2026.10.15.10",
+  "version": "2026.10.15.11",
   "date": "2026-10-15",
   "sources": [
     "CineSrc",
-    "MoviesAPI"
+    "MoviesAPI",
+    "ScreenScape",
+    "Cinextream",
+    "VidCore"
   ],
   "adSupportedSources": [
     "VidRift",
@@ -22,6 +25,6 @@
     "The-Traitors-S05E05.mp4"
   ],
   "catalog": "https://bogart-catalog.cydpixl7.workers.dev",
-  "notes": "Working separate Outlaw accounts and shared comments/replies, editing/deleting, spoilers, sorting and votes. Matching title-page positioning, cast before trailers, in-site actor biographies/filmographies, production metadata, poster hover overlays, search result sizing, self-hosted Inter font and closer silk animation. Removed external title database links and source/status clutter. R2 media and account-free playback preserved. Public lists can be published, searched, opened without an account, copied, updated and made private. Cloud settings/list/progress sync preserves pending changes through refresh. Native media downloads stream with attachment and range headers. Exact reference curated rows and provider selections included. Cleaner title URLs preserve old links; refined hover motion, actor biography layout, Outlaw favicon and ranked source directory.",
+  "notes": "Working separate Outlaw accounts and shared comments/replies, editing/deleting, spoilers, sorting and votes. Matching title-page positioning, cast before trailers, in-site actor biographies/filmographies, production metadata, poster hover overlays, search result sizing, self-hosted Inter font and closer silk animation. Removed external title database links and source/status clutter. R2 media and account-free playback preserved. Public lists can be published, searched, opened without an account, copied, updated and made private. Cloud settings/list/progress sync preserves pending changes through refresh. Native media downloads stream with attachment and range headers. Exact reference curated rows and provider selections included. Cleaner title URLs preserve old links; refined hover motion, actor biography layout, Outlaw favicon and ranked source directory. ScreenScape, Cinextream and VidCore promoted for movies after fresh sandbox playback observations; TV compatibility is not assumed.",
   "name": "Outlaw Movies"
 }
