@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.15.7",
+  "version": "2026.10.15.8",
   "date": "2026-10-15",
   "sources": [
     "CineSrc",
@@ -22,6 +22,6 @@
     "The-Traitors-S05E05.mp4"
   ],
   "catalog": "https://bogart-catalog.cydpixl7.workers.dev",
-  "notes": "Animated procedural silk background and centered footer; horizontal glass settings tabs; measured 200px poster rails, 320px episode cards and 144px cast cards; timed hero indicator pauses and resets with rotation. No account required. Existing playback, watch parties and R2 media preserved.",
+  "notes": "Animated procedural silk background and centered footer; horizontal glass settings tabs; measured 200px poster rails, 320px episode cards and 144px cast cards; timed hero indicator pauses and resets with rotation. No account required. Existing playback, watch parties and R2 media preserved. Hero timing measured at 8 seconds in the reference and matched; completed slide dots fill white; hero titles deduplicated and genre metadata refreshed.",
   "name": "Outlaw Movies"
 }

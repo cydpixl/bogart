@@ -10,6 +10,7 @@ html[data-theme=amoled] .ambient-silk,html[data-theme=dark] .ambient-silk{displa
 .carousel-dots{gap:8px;padding:0}
 .slide-dot{position:relative;width:8px;height:8px;background:#ffffff55;overflow:hidden;transition:width .3s}
 .slide-dot.active{width:32px;background:#ffffff55}
+.slide-dot.complete{background:white}
 .slide-dot>span{position:absolute;inset:0;width:0;background:white;border-radius:inherit}
 .slide-dot.active>span{width:var(--hero-progress,0%)}
 .hero-slide .hero-backdrop{transform:scale(1.025);transition:transform 7.3s linear,filter .7s}

@@ -1,4 +1,4 @@
-import {installPlayerChrome} from './player-chrome.mjs?v=20261015-outlaw7';
+import {installPlayerChrome} from './player-chrome.mjs?v=20261015-outlaw8';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const providers=[
  {id:'cinesrc',name:'CineSrc',origin:'https://cinesrc.st',controls:true,path:item=>item.type==='tv'?`/embed/tv/${item.id}?s=${item.season}&e=${item.episode}`:`/embed/movie/${item.id}`},

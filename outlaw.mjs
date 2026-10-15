@@ -1,6 +1,6 @@
-import {playerIcon} from './player-icons.mjs?v=20261015-outlaw7';
-import {installWatchParty} from './watch-party.mjs?v=20261015-outlaw7';
-import {providers,readAds,setAds} from './provider-player.mjs?v=20261015-outlaw7';
+import {playerIcon} from './player-icons.mjs?v=20261015-outlaw8';
+import {installWatchParty} from './watch-party.mjs?v=20261015-outlaw8';
+import {providers,readAds,setAds} from './provider-player.mjs?v=20261015-outlaw8';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const uid=()=>crypto.randomUUID();
 export function installOutlaw(ctx){
