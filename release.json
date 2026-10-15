@@ -1,11 +1,12 @@
 {
-  "version": "2026.10.15.2",
+  "version": "2026.10.15.3",
   "date": "2026-10-15",
   "sources": [
     "CineSrc",
     "MoviesAPI"
   ],
   "adSupportedSources": [
+    "VidRift",
     "VidNest",
     "VixSrc",
     "VidLove",
@@ -21,5 +22,6 @@
     "The-Traitors-S05E05.mp4"
   ],
   "catalog": "https://bogart-catalog.cydpixl7.workers.dev",
-  "notes": "Desktop catalog redesign, custom season menus and episode rails, overlay player controls with server and playback menus; existing R2 uploads preserved."
+  "notes": "Outlaw Movies rebrand; Cinejoy-style desktop utility pages and player settings; named lists/import/export/sharing, history editor, watched markers, episode ratings, appearance settings, local subtitles and optional watch-party UI. No account required. VidRift available only with ads enabled and without sandbox. R2 media preserved.",
+  "name": "Outlaw Movies"
 }
