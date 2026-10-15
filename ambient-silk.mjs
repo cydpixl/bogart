@@ -1,4 +1,5 @@
-// A lightweight procedural fabric surface. No remote assets or tracking.
+// Silk fold field adapted from React Bits by David Haz, used within this site.
+// See THIRD-PARTY-NOTICES.md for the MIT + Commons Clause license.
 export function installAmbientSilk(){
  const reduced=matchMedia('(prefers-reduced-motion: reduce)');
  const surfaces=[];
@@ -14,18 +15,13 @@ export function installAmbientSilk(){
    float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
    void main(){
     vec2 uv=gl_FragCoord.xy/size;
-    vec2 p=uv*vec2(size.x/size.y,1.)*3.1;
-    float t=time*.12;
-    p+=vec2(.5*sin(p.y*1.6+t),.35*cos(p.x*1.1-t));
-    float folds=sin(p.x*3.8+sin(p.y*2.7+t)*1.6+cos(p.x*1.3-p.y*2.4+t)*1.1);
-    float creases=sin(p.y*4.2+cos(p.x*3.1-t)*1.2+sin(p.y*1.8+t));
-    float fabric=pow(clamp(.48+.38*folds+.18*creases,0.,1.),3.2);
-    float sheen=pow(max(0.,1.-abs(folds-.30)),14.)*.27;
-    float light=(fabric*.68+sheen)*mix(.18,1.,smoothstep(.02,.95,uv.y));
-    light*=.64+.36*sin(uv.x*2.6+1.0);
-    vec3 col=vec3(.004,.013,.006)+tint*light;
-    col*=mix(.28,1.,smoothstep(.0,.62,uv.y)+footer*.2);
-    col+=(hash(gl_FragCoord.xy)-.5)*.034;
+    vec2 tex=uv*1.15;
+    float t=time*.45;
+    tex.y+=.03*sin(8.*tex.x-t);
+    float pattern=.6+.4*sin(5.*(tex.x+tex.y+cos(3.*tex.x+5.*tex.y)+.02*t)+sin(20.*(tex.x+tex.y-.1*t)));
+    float light=pow(max(0.,pattern),2.1);
+    vec3 col=tint*light*.67-vec3(hash(gl_FragCoord.xy)*.055);
+    col*=mix(.32,1.,smoothstep(0.,.85,uv.y)+footer*.2);
     gl_FragColor=vec4(max(vec3(0.),col),1.);
    }`);
   if(!vertex||!fragment){canvas.remove();continue}
