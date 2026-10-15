@@ -11,4 +11,4 @@ The uploaded Buddy, Clown Panic and The Traitors S5E1–E5 files retain their ex
 
 The catalog includes search, provider filtering, sorting, pagination, title details, trailers, cast, recommendations and season/episode browsing. Native uploads take priority over external playback for matching titles and episodes. Lists and viewing progress stay in this browser.
 
-The GitHub Pages base is `/bogart/`. For the Cloudflare Pages release, remove the HTML base tag and retain SPA redirects. `catalog-worker/` contains the metadata-only gateway; it reads the preserved Connections catalog across accounts and cannot route uploads or media mutations. No R2 files or existing account records are replaced.
+The GitHub Pages base is `/bogart/`. For the Cloudflare Pages release, use an HTML base tag of `/` and retain SPA redirects. `catalog-worker/` contains the metadata-only gateway; it reads the preserved Connections catalog across accounts and cannot route uploads or media mutations. No R2 files or existing account records are replaced.
