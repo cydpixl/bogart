@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-15",
+  "checkedAt": "2026-10-15T18:06:22.480Z",
   "title": {
     "name": "Avengers: Endgame",
     "year": 2019,
@@ -19,9 +19,20 @@
       "referrerPolicy": "strict-origin-when-cross-origin",
       "group": "sandbox",
       "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback observed",
-      "note": "Decoded video and advancing playback observed across a 42-second browser check on October 15, 2026. This is a bounded test, not a guarantee.",
-      "rank": 1
+      "baseline": "Sustained decoded playback observed in sandbox",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 1,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback observed",
+        "note": "Decoded video and advancing playback observed across a 42-second browser check on October 15, 2026. This is a bounded test, not a guarantee."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:55:20.597Z",
+        "sandbox": true,
+        "normal": true,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "screenscape",
@@ -34,9 +45,20 @@
       "referrerPolicy": "strict-origin-when-cross-origin",
       "group": "sandbox",
       "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback observed",
-      "note": "Decoded video and advancing playback observed across a 42-second browser check on October 15, 2026. This is a bounded test, not a guarantee.",
-      "rank": 2
+      "baseline": "Sustained decoded playback observed in sandbox",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 2,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback observed",
+        "note": "Decoded video and advancing playback observed across a 42-second browser check on October 15, 2026. This is a bounded test, not a guarantee."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:55:20.611Z",
+        "sandbox": true,
+        "normal": true,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "cinextream",
@@ -49,9 +71,20 @@
       "referrerPolicy": "strict-origin-when-cross-origin",
       "group": "sandbox",
       "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback observed",
-      "note": "Decoded video and advancing playback observed across a 42-second browser check on October 15, 2026. This is a bounded test, not a guarantee.",
-      "rank": 3
+      "baseline": "Sustained decoded playback observed in sandbox",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 3,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback observed",
+        "note": "Decoded video and advancing playback observed across a 42-second browser check on October 15, 2026. This is a bounded test, not a guarantee."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:55:20.613Z",
+        "sandbox": true,
+        "normal": true,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "vidcore",
@@ -64,264 +97,20 @@
       "referrerPolicy": "strict-origin-when-cross-origin",
       "group": "sandbox",
       "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback observed",
-      "note": "Decoded video and advancing playback observed across a 42-second browser check on October 15, 2026. This is a bounded test, not a guarantee.",
-      "rank": 4
-    },
-    {
-      "id": "vidzen",
-      "name": "VidZen",
-      "home": "https://www.vidzen.fun/",
-      "docs": "https://www.vidzen.fun/",
-      "embed": "https://vidzen.fun/movie/299534",
-      "adapter": "vidfast",
-      "controls": true,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "sandbox",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback observed",
-      "note": "Decoded video and advancing playback observed across a 42-second browser check on October 15, 2026. This is a bounded test, not a guarantee.",
-      "rank": 5
-    },
-    {
-      "id": "moviesapi",
-      "name": "MoviesAPI",
-      "home": "https://moviesapi.to/",
-      "docs": "https://moviesapi.to/",
-      "embed": "https://moviesapi.to/movie/299534",
-      "adapter": "moviesapi",
-      "controls": true,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 6
-    },
-    {
-      "id": "111movies",
-      "name": "111movies",
-      "home": "https://www.111movies.net/",
-      "docs": "https://www.111movies.net/",
-      "embed": "https://111movies.net/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 7
-    },
-    {
-      "id": "vidlove",
-      "name": "VidLove",
-      "home": "https://vidlove.cc/",
-      "docs": "https://vidlove.cc/",
-      "embed": "https://player.vidlove.cc/embed/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 8
-    },
-    {
-      "id": "2embed",
-      "name": "2Embed",
-      "home": "https://2embed.cc/",
-      "docs": "https://2embed.cc/",
-      "embed": "https://www.2embed.cc/embed/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 9
-    },
-    {
-      "id": "apiplayer",
-      "name": "APIPlayer",
-      "home": "https://apiplayer.ru/",
-      "docs": "https://apiplayer.ru/",
-      "embed": "https://apiplayer.ru/embed/movie/299534?autoplay=0",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 10
-    },
-    {
-      "id": "cinezo",
-      "name": "Cinezo",
-      "home": "https://cinezo.live/",
-      "docs": "https://cinezo.live/",
-      "embed": "https://player.cinezo.live/embed/movie/299534?autoplay=false&poster=true",
-      "adapter": "cinezo",
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 11
-    },
-    {
-      "id": "embedwave",
-      "name": "EmbedWave",
-      "home": "https://embedwave.cc/",
-      "docs": "https://embedwave.cc/docs",
-      "embed": "https://embedwave.cc/embed/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "no-referrer",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 12
-    },
-    {
-      "id": "filmu",
-      "name": "FilmU",
-      "home": "https://embed.filmu.in/",
-      "docs": "https://embed.filmu.in/",
-      "embed": "https://embed.filmu.in/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 13
-    },
-    {
-      "id": "hnembed",
-      "name": "HNEmbed",
-      "home": "https://hnembed.com/",
-      "docs": "https://hnembed.com/",
-      "embed": "https://hnembed.cc/embed/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 14
-    },
-    {
-      "id": "ollyembed",
-      "name": "OllyEmbed",
-      "home": "https://ollyembed.pages.dev/",
-      "docs": "https://ollyembed.pages.dev/",
-      "embed": "https://ollyembed.pages.dev/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 15
-    },
-    {
-      "id": "vidking",
-      "name": "VidKing",
-      "home": "https://www.vidking.net/",
-      "docs": "https://www.vidking.net/",
-      "embed": "https://www.vidking.net/embed/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 16
-    },
-    {
-      "id": "vidzee",
-      "name": "VidZee",
-      "home": "https://vidzee.wtf/",
-      "docs": "https://vidzee.wtf/",
-      "embed": "https://player.vidzee.wtf/embed/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 17
-    },
-    {
-      "id": "wave",
-      "name": "Wave",
-      "home": "https://wavembed.lol/",
-      "docs": "https://wavembed.lol/",
-      "embed": "https://wavembed.lol/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained sandbox playback unconfirmed",
-      "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved.",
-      "rank": 18
-    },
-    {
-      "id": "fmhy-rive",
-      "name": "Rive",
-      "home": "https://www.rivestream.app/",
-      "docs": "https://www.rivestream.app/embed/docs",
-      "embed": "https://www.rivestream.app/embed?type=movie&id=299534",
-      "adapter": null,
-      "controls": false,
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "baseline": "60-second playback check unconfirmed",
-      "note": "Official endpoint documented. 60-second headless check on October 15, 2026: sandbox unconfirmed; normal unconfirmed. Movie identity not visually verified; school/network filtering is not tested.",
-      "rank": 19,
-      "referrerPolicy": "strict-origin-when-cross-origin"
-    },
-    {
-      "id": "vidsrc-mov",
-      "name": "VidSrc.mov",
-      "home": "https://vidsrc.mov/",
-      "docs": "https://vidsrc.mov/",
-      "embed": "https://vidsrc.mov/embed/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "baseline": "60-second playback check unconfirmed",
-      "note": "Official endpoint documented. 60-second headless check on October 15, 2026: sandbox unconfirmed; normal unconfirmed. Movie identity not visually verified; school/network filtering is not tested.",
-      "rank": 20
-    },
-    {
-      "id": "frembed",
-      "name": "Frembed",
-      "home": "https://frembed.bar/",
-      "docs": "https://frembed.bar/api-docs",
-      "embed": "https://frembed.bar/embed/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "group": "unknown",
-      "defaultMode": "sandbox",
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "baseline": "60-second playback check unconfirmed",
-      "note": "Official endpoint documented. 60-second headless check on October 15, 2026: sandbox unconfirmed; normal unconfirmed. Movie identity not visually verified; school/network filtering is not tested. Provider offers French/original/subtitled versions.",
-      "rank": 21
+      "baseline": "Sustained decoded playback observed in sandbox",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 4,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback observed",
+        "note": "Decoded video and advancing playback observed across a 42-second browser check on October 15, 2026. This is a bounded test, not a guarantee."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:56:04.026Z",
+        "sandbox": true,
+        "normal": true,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "vidrift",
@@ -332,86 +121,22 @@
       "adapter": "vidrift",
       "controls": false,
       "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
-      "defaultMode": "normal",
-      "baseline": "Sandbox rejected after brief playback",
-      "note": "User observed brief playback followed by a white screen and a request to remove the sandbox on October 15, 2026. Treat sandbox mode as incompatible; normal mode is unverified and may allow redirects or pop-ups.",
-      "rank": 22
-    },
-    {
-      "id": "vidnest",
-      "name": "VidNest",
-      "home": "https://vidnest.fun/",
-      "docs": "https://vidnest.fun/",
-      "embed": "https://vidnest.fun/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
-      "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects. Decoded video was observed in the earlier normal-mode check.",
-      "rank": 23
-    },
-    {
-      "id": "vidrock",
-      "name": "VidRock",
-      "home": "https://vidrock.net/",
-      "docs": "https://vidrock.net/",
-      "embed": "https://vidrock.net/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
-      "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects. Decoded video was observed in the earlier normal-mode check.",
-      "rank": 24
-    },
-    {
-      "id": "vidy",
-      "name": "Vidy",
-      "home": "https://www.vidy.st/",
-      "docs": "https://www.vidy.st/",
-      "embed": "https://vidy.st/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
-      "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects. Decoded video was observed in the earlier normal-mode check.",
-      "rank": 25
-    },
-    {
-      "id": "vixsrc",
-      "name": "VixSrc",
-      "home": "https://vixsrc.to/",
-      "docs": "https://vixsrc.to/",
-      "embed": "https://vixsrc.to/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
-      "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects. Decoded video was observed in the earlier normal-mode check.",
-      "rank": 26
-    },
-    {
-      "id": "embedmaster",
-      "name": "EmbedMaster",
-      "home": "https://embedmaster.com/",
-      "docs": "https://embedmaster.com/documentation/",
-      "embed": "https://embedmaster.link/movie/299534",
-      "adapter": "embedmaster",
-      "controls": true,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
-      "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 27
+      "group": "sandbox",
+      "defaultMode": "sandbox",
+      "baseline": "Sustained decoded playback observed in sandbox",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0. Earlier sessions showed a white screen and removal-of-sandbox warning; this short passing result does not establish reliability.",
+      "rank": 5,
+      "previousObservation": {
+        "baseline": "Sandbox rejected after brief playback",
+        "note": "User observed brief playback followed by a white screen and a request to remove the sandbox on October 15, 2026. Treat sandbox mode as incompatible; normal mode is unverified and may allow redirects or pop-ups."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:00:24.389Z",
+        "sandbox": true,
+        "normal": true,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "superembed",
@@ -424,24 +149,20 @@
       "referrerPolicy": "strict-origin-when-cross-origin",
       "group": "normal",
       "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 28
-    },
-    {
-      "id": "vidapi",
-      "name": "VidAPI",
-      "home": "https://vidapi.tw/faq",
-      "docs": "https://vidapi.tw/faq",
-      "embed": "https://vidapi.tw/embed/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
-      "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 29
+      "baseline": "Sustained decoded playback observed in normal mode",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Sandbox rejection detected. Pop-ups closed during test: 0.",
+      "rank": 6,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:01:50.984Z",
+        "sandbox": false,
+        "normal": true,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "vidbolt",
@@ -454,84 +175,20 @@
       "referrerPolicy": "strict-origin-when-cross-origin",
       "group": "normal",
       "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 30
-    },
-    {
-      "id": "videasy",
-      "name": "Videasy (retired)",
-      "home": "https://www.videasy.to/",
-      "docs": "https://www.videasy.to/",
-      "embed": "https://player.videasy.net/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
-      "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 31
-    },
-    {
-      "id": "vidlink",
-      "name": "VidLink",
-      "home": "https://vidlink.pro/",
-      "docs": "https://vidlink.pro/",
-      "embed": "https://vidlink.pro/movie/299534?autoplay=false",
-      "adapter": "vidlink",
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
-      "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 32
-    },
-    {
-      "id": "vidsrc-hair",
-      "name": "VidSrc · hair",
-      "home": "https://vidsrc.hair/",
-      "docs": "https://vidsrc.hair/",
-      "embed": "https://vidsrc.hair/embed/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
-      "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 33
-    },
-    {
-      "id": "vidsrc-link",
-      "name": "VidSrc · link",
-      "home": "https://www.vidsrc.link/",
-      "docs": "https://www.vidsrc.link/",
-      "embed": "https://vidsrc.link/embed/movie/299534",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
-      "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 34
-    },
-    {
-      "id": "vidsrc-pk",
-      "name": "VidSrc · pk",
-      "home": "https://vidsrc.pk/",
-      "docs": "https://vidsrc.pk/",
-      "embed": "https://embed.vidsrc.pk/movie/tt4154796",
-      "adapter": null,
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
-      "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 35
+      "baseline": "Sustained decoded playback observed in normal mode",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Sandbox rejection detected. Pop-ups closed during test: 0.",
+      "rank": 7,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:01:53.708Z",
+        "sandbox": false,
+        "normal": true,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "vidsrc",
@@ -544,9 +201,748 @@
       "referrerPolicy": "strict-origin-when-cross-origin",
       "group": "normal",
       "defaultMode": "normal",
-      "baseline": "Sandbox rejected or unsupported",
-      "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 36
+      "baseline": "Sustained decoded playback observed in normal mode",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 8,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:03:20.787Z",
+        "sandbox": false,
+        "normal": true,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidzen",
+      "name": "VidZen",
+      "home": "https://www.vidzen.fun/",
+      "docs": "https://www.vidzen.fun/",
+      "embed": "https://vidzen.fun/movie/299534",
+      "adapter": "vidfast",
+      "controls": true,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "normal",
+      "defaultMode": "normal",
+      "baseline": "Sustained decoded playback observed in normal mode",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 1.",
+      "rank": 9,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback observed",
+        "note": "Decoded video and advancing playback observed across a 42-second browser check on October 15, 2026. This is a bounded test, not a guarantee."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:56:04.367Z",
+        "sandbox": false,
+        "normal": true,
+        "popups": 1,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "moviesapi",
+      "name": "MoviesAPI",
+      "home": "https://moviesapi.to/",
+      "docs": "https://moviesapi.to/",
+      "embed": "https://moviesapi.to/movie/299534",
+      "adapter": "moviesapi",
+      "controls": true,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 10,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:56:04.566Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "111movies",
+      "name": "111movies",
+      "home": "https://www.111movies.net/",
+      "docs": "https://www.111movies.net/",
+      "embed": "https://111movies.net/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 11,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:56:47.883Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidlove",
+      "name": "VidLove",
+      "home": "https://vidlove.cc/",
+      "docs": "https://vidlove.cc/",
+      "embed": "https://player.vidlove.cc/embed/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 12,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:56:48.505Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "2embed",
+      "name": "2Embed",
+      "home": "https://2embed.cc/",
+      "docs": "https://2embed.cc/",
+      "embed": "https://www.2embed.cc/embed/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 13,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:56:50.016Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "apiplayer",
+      "name": "APIPlayer",
+      "home": "https://apiplayer.ru/",
+      "docs": "https://apiplayer.ru/",
+      "embed": "https://apiplayer.ru/embed/movie/299534?autoplay=0",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 14,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:57:31.153Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "cinezo",
+      "name": "Cinezo",
+      "home": "https://cinezo.live/",
+      "docs": "https://cinezo.live/",
+      "embed": "https://player.cinezo.live/embed/movie/299534?autoplay=false&poster=true",
+      "adapter": "cinezo",
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 15,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:57:31.807Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "embedwave",
+      "name": "EmbedWave",
+      "home": "https://embedwave.cc/",
+      "docs": "https://embedwave.cc/docs",
+      "embed": "https://embedwave.cc/embed/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "no-referrer",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 16,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:57:33.289Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "filmu",
+      "name": "FilmU",
+      "home": "https://embed.filmu.in/",
+      "docs": "https://embed.filmu.in/",
+      "embed": "https://embed.filmu.in/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 17,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:58:14.640Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "hnembed",
+      "name": "HNEmbed",
+      "home": "https://hnembed.com/",
+      "docs": "https://hnembed.com/",
+      "embed": "https://hnembed.cc/embed/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 18,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:58:15.088Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "ollyembed",
+      "name": "OllyEmbed",
+      "home": "https://ollyembed.pages.dev/",
+      "docs": "https://ollyembed.pages.dev/",
+      "embed": "https://ollyembed.pages.dev/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 19,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:58:16.654Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidking",
+      "name": "VidKing",
+      "home": "https://www.vidking.net/",
+      "docs": "https://www.vidking.net/",
+      "embed": "https://www.vidking.net/embed/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 20,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:58:57.888Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidzee",
+      "name": "VidZee",
+      "home": "https://vidzee.wtf/",
+      "docs": "https://vidzee.wtf/",
+      "embed": "https://player.vidzee.wtf/embed/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 21,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:58:58.386Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "wave",
+      "name": "Wave",
+      "home": "https://wavembed.lol/",
+      "docs": "https://wavembed.lol/",
+      "embed": "https://wavembed.lol/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 22,
+      "previousObservation": {
+        "baseline": "Sustained sandbox playback unconfirmed",
+        "note": "No sustained decoded playback was confirmed during a 42-second sandbox check on October 15, 2026. Loading, interaction or source failure may be involved."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:58:59.981Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "fmhy-rive",
+      "name": "Rive",
+      "home": "https://www.rivestream.app/",
+      "docs": "https://www.rivestream.app/embed/docs",
+      "embed": "https://www.rivestream.app/embed?type=movie&id=299534",
+      "adapter": null,
+      "controls": false,
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 23,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "previousObservation": {
+        "baseline": "60-second playback check unconfirmed",
+        "note": "Official endpoint documented. 60-second headless check on October 15, 2026: sandbox unconfirmed; normal unconfirmed. Movie identity not visually verified; school/network filtering is not tested."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:59:41.147Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidsrc-mov",
+      "name": "VidSrc.mov",
+      "home": "https://vidsrc.mov/",
+      "docs": "https://vidsrc.mov/",
+      "embed": "https://vidsrc.mov/embed/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "group": "unknown",
+      "defaultMode": "normal",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 24,
+      "previousObservation": {
+        "baseline": "60-second playback check unconfirmed",
+        "note": "Official endpoint documented. 60-second headless check on October 15, 2026: sandbox unconfirmed; normal unconfirmed. Movie identity not visually verified; school/network filtering is not tested."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:59:41.666Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "frembed",
+      "name": "Frembed",
+      "home": "https://frembed.bar/",
+      "docs": "https://frembed.bar/api-docs",
+      "embed": "https://frembed.bar/embed/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "group": "unknown",
+      "defaultMode": "normal",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 1.",
+      "rank": 25,
+      "previousObservation": {
+        "baseline": "60-second playback check unconfirmed",
+        "note": "Official endpoint documented. 60-second headless check on October 15, 2026: sandbox unconfirmed; normal unconfirmed. Movie identity not visually verified; school/network filtering is not tested. Provider offers French/original/subtitled versions."
+      },
+      "latestTest": {
+        "at": "2026-10-15T17:59:43.262Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 1,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidnest",
+      "name": "VidNest",
+      "home": "https://vidnest.fun/",
+      "docs": "https://vidnest.fun/",
+      "embed": "https://vidnest.fun/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 1.",
+      "rank": 26,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects. Decoded video was observed in the earlier normal-mode check."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:00:25.158Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 1,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidrock",
+      "name": "VidRock",
+      "home": "https://vidrock.net/",
+      "docs": "https://vidrock.net/",
+      "embed": "https://vidrock.net/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Sandbox rejection detected. Pop-ups closed during test: 0.",
+      "rank": 27,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects. Decoded video was observed in the earlier normal-mode check."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:00:26.752Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidy",
+      "name": "Vidy",
+      "home": "https://www.vidy.st/",
+      "docs": "https://www.vidy.st/",
+      "embed": "https://vidy.st/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 28,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects. Decoded video was observed in the earlier normal-mode check."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:01:07.704Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vixsrc",
+      "name": "VixSrc",
+      "home": "https://vixsrc.to/",
+      "docs": "https://vixsrc.to/",
+      "embed": "https://vixsrc.to/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 29,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects. Decoded video was observed in the earlier normal-mode check."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:01:08.351Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "embedmaster",
+      "name": "EmbedMaster",
+      "home": "https://embedmaster.com/",
+      "docs": "https://embedmaster.com/documentation/",
+      "embed": "https://embedmaster.link/movie/299534",
+      "adapter": "embedmaster",
+      "controls": true,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 30,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:01:10.045Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidapi",
+      "name": "VidAPI",
+      "home": "https://vidapi.tw/faq",
+      "docs": "https://vidapi.tw/faq",
+      "embed": "https://vidapi.tw/embed/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 31,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:01:51.544Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "videasy",
+      "name": "Videasy (retired)",
+      "home": "https://www.videasy.to/",
+      "docs": "https://www.videasy.to/",
+      "embed": "https://player.videasy.net/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 32,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:02:34.221Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidlink",
+      "name": "VidLink",
+      "home": "https://vidlink.pro/",
+      "docs": "https://vidlink.pro/",
+      "embed": "https://vidlink.pro/movie/299534?autoplay=false",
+      "adapter": "vidlink",
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 1.",
+      "rank": 33,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:02:34.874Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 1,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidsrc-hair",
+      "name": "VidSrc · hair",
+      "home": "https://vidsrc.hair/",
+      "docs": "https://vidsrc.hair/",
+      "embed": "https://vidsrc.hair/embed/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 34,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:02:36.938Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidsrc-link",
+      "name": "VidSrc · link",
+      "home": "https://www.vidsrc.link/",
+      "docs": "https://www.vidsrc.link/",
+      "embed": "https://vidsrc.link/embed/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 35,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:03:17.383Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
+    },
+    {
+      "id": "vidsrc-pk",
+      "name": "VidSrc · pk",
+      "home": "https://vidsrc.pk/",
+      "docs": "https://vidsrc.pk/",
+      "embed": "https://embed.vidsrc.pk/movie/tt4154796",
+      "adapter": null,
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "unknown",
+      "defaultMode": "normal",
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 1.",
+      "rank": 36,
+      "previousObservation": {
+        "baseline": "Sandbox rejected or unsupported",
+        "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:03:18.060Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 1,
+        "identityVerified": false
+      }
     },
     {
       "id": "vidfast",
@@ -557,11 +953,22 @@
       "adapter": "vidfast",
       "controls": true,
       "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
+      "group": "unknown",
       "defaultMode": "normal",
-      "baseline": "Earlier framing restriction",
-      "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 37
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 37,
+      "previousObservation": {
+        "baseline": "Earlier framing restriction",
+        "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:04:00.815Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "autoembed",
@@ -572,11 +979,22 @@
       "adapter": null,
       "controls": false,
       "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
+      "group": "unknown",
       "defaultMode": "normal",
-      "baseline": "Earlier framing restriction",
-      "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 38
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 38,
+      "previousObservation": {
+        "baseline": "Earlier framing restriction",
+        "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:04:03.337Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "embedapi",
@@ -587,11 +1005,22 @@
       "adapter": null,
       "controls": false,
       "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
+      "group": "unknown",
       "defaultMode": "normal",
-      "baseline": "Earlier framing restriction",
-      "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 39
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 39,
+      "previousObservation": {
+        "baseline": "Earlier framing restriction",
+        "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:04:04.809Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "ezvidapi",
@@ -602,11 +1031,22 @@
       "adapter": null,
       "controls": false,
       "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
+      "group": "unknown",
       "defaultMode": "normal",
-      "baseline": "Earlier framing restriction",
-      "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 40
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 40,
+      "previousObservation": {
+        "baseline": "Earlier framing restriction",
+        "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:04:43.957Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "mapple",
@@ -617,11 +1057,22 @@
       "adapter": null,
       "controls": false,
       "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
+      "group": "unknown",
       "defaultMode": "normal",
-      "baseline": "Earlier framing restriction",
-      "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 41
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 41,
+      "previousObservation": {
+        "baseline": "Earlier framing restriction",
+        "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:04:47.971Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "stellar",
@@ -632,11 +1083,22 @@
       "adapter": null,
       "controls": false,
       "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
+      "group": "unknown",
       "defaultMode": "normal",
-      "baseline": "Earlier framing restriction",
-      "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 42
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 42,
+      "previousObservation": {
+        "baseline": "Earlier framing restriction",
+        "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:04:58.166Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "vidify",
@@ -647,11 +1109,22 @@
       "adapter": null,
       "controls": false,
       "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
+      "group": "unknown",
       "defaultMode": "normal",
-      "baseline": "Earlier framing restriction",
-      "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 43
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 43,
+      "previousObservation": {
+        "baseline": "Earlier framing restriction",
+        "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:05:27.119Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "vidplus",
@@ -662,11 +1135,22 @@
       "adapter": null,
       "controls": false,
       "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "normal",
+      "group": "unknown",
       "defaultMode": "normal",
-      "baseline": "Earlier framing restriction",
-      "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 44
+      "baseline": "Latest playback check unconfirmed",
+      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0.",
+      "rank": 44,
+      "previousObservation": {
+        "baseline": "Earlier framing restriction",
+        "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering."
+      },
+      "latestTest": {
+        "at": "2026-10-15T18:05:31.124Z",
+        "sandbox": false,
+        "normal": false,
+        "popups": 0,
+        "identityVerified": false
+      }
     },
     {
       "id": "candidate-6",
