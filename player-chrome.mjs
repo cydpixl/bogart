@@ -1,5 +1,5 @@
-import {installAdvancedPlayer} from './player-advanced.mjs?v=20261015-outlaw4';
-import {playerIcon as icon} from './player-icons.mjs?v=20261015-outlaw4';
+import {installAdvancedPlayer} from './player-advanced.mjs?v=20261015-outlaw5';
+import {playerIcon as icon} from './player-icons.mjs?v=20261015-outlaw5';
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function installPlayerChrome(player,dialog){
  const $=s=>dialog.querySelector(s), make=(name,label,action)=>{const b=document.createElement('button');b.type='button';b.innerHTML=icon(name);b.setAttribute('aria-label',label);b.title=label;b.onclick=action;return b};
