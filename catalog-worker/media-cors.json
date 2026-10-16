@@ -1,0 +1,1 @@
+{"rules":[{"allowed":{"origins":["https://cydpixl.github.io","https://bogart.pages.dev","https://*.bogart.pages.dev","http://127.0.0.1:5184","http://127.0.0.1:4322"],"methods":["GET","HEAD"],"headers":["Range","Content-Type"]},"exposeHeaders":["Content-Length","Content-Range","Accept-Ranges","ETag"],"maxAgeSeconds":3600}]}
