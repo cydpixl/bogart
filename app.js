@@ -7,7 +7,7 @@ import {ProviderPlayer,readAds,setAds} from './provider-player.mjs?v=20261015-ou
   "use strict";
   installAmbientSilk();
   const films = {
-    buddy: {title:'Buddy',year:'2026',rating:'R',genres:'Horror · Comedy · Fantasy',runtime:'1h 35m',poster:'https://image.tmdb.org/t/p/w500/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg',backdrop:'https://image.tmdb.org/t/p/w1280/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg',overview:'A magical, singing orange unicorn holds his cast hostage in a surreal TV-show dimension, as he becomes more and more demented.',tmdb:'https://www.themoviedb.org/movie/1514026-buddy',video:'https://pub-d5bf33b40cf244f5af929f9e5a237aa9.r2.dev/Buddy.mp4'},
+    buddy: {title:'Buddy',year:'2026',rating:'R',genres:'Horror · Comedy · Fantasy',runtime:'1h 35m',poster:'https://image.tmdb.org/t/p/w500/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg',backdrop:'https://image.tmdb.org/t/p/w1280/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg',overview:'A magical, singing orange unicorn holds his cast hostage in a surreal TV-show dimension, as he becomes more and more demented.',tmdb:'https://www.themoviedb.org/movie/1514026-buddy',video:'https://pub-d5bf33b40cf244f5af929f9e5a237aa9.r2.dev/Buddy-20261015.mp4'},
     'clown-panic': {title:'Clown Panic',year:'2026',rating:'R',genres:'Documentary',runtime:'1h 24m',poster:'https://image.tmdb.org/t/p/w500/pZ15WSO7UzzJ297SLBMvxHNQDC1.jpg',backdrop:'https://image.tmdb.org/t/p/w1280/51M331d6lEMidnZlAEbTKox5ih4.jpg',overview:'A look back at the 2016 nationwide clown hysteria, told through eyewitness accounts, police, commentators, and professional clowns.',tmdb:'https://www.themoviedb.org/movie/1776531-clown-panic',video:'https://pub-d5bf33b40cf244f5af929f9e5a237aa9.r2.dev/clown-panic.mp4'}
   };
   const episodes = [
