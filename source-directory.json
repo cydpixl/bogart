@@ -116,15 +116,15 @@
       "id": "vidrift",
       "name": "VidRift",
       "home": "https://vidrift.net/",
-      "docs": "https://vidrift.net/docs/",
+      "docs": "https://vidrift.net/#quick-start",
       "embed": "https://embed.vidrift.net/embed/movie/299534",
       "adapter": "vidrift",
       "controls": false,
       "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "sandbox",
-      "defaultMode": "sandbox",
-      "baseline": "Sustained decoded playback observed in sandbox",
-      "note": "43-second browser observation in each mode on October 15, 2026. Decoded video must advance for over 12 seconds and still be playing at the final sample. Film identity and network-specific filtering are not verified. Pop-ups closed during test: 0. Earlier sessions showed a white screen and removal-of-sandbox warning; this short passing result does not establish reliability.",
+      "group": "normal",
+      "defaultMode": "normal",
+      "baseline": "Normal mode required · sandbox rejected on interaction",
+      "note": "User device screenshot on October 15, 2026 shows “Remove sandboxing to enable playback” after touching the player. Startup telemetry and the earlier short advancing-video check did not establish usable sandbox playback. Official VidRift documentation says not to add a sandbox attribute. Normal mode can allow ads, pop-ups and redirects; network access remains unverified.",
       "rank": 5,
       "previousObservation": {
         "baseline": "Sandbox rejected after brief playback",
@@ -132,10 +132,13 @@
       },
       "latestTest": {
         "at": "2026-10-15T18:00:24.389Z",
-        "sandbox": true,
+        "sandbox": false,
         "normal": true,
         "popups": 0,
-        "identityVerified": false
+        "identityVerified": false,
+        "sandboxStartup": true,
+        "interaction": "sandbox rejected on interaction",
+        "interactionEvidence": "User-provided screenshot, October 15, 2026"
       }
     },
     {
