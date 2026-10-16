@@ -1,4 +1,4 @@
-import {installPlayerChrome} from './player-chrome.mjs?v=20261015-outlaw13';
+import {installPlayerChrome} from './player-chrome.mjs?v=20261015-outlaw15';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const providers=[
  {id:'screenscape',name:'ScreenScape',origin:'https://nxsha.screenscape.me',moviesOnly:true,path:item=>`/embed?tmdb=${item.id}&type=movie&lan=eng`},

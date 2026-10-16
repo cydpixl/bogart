@@ -1,4 +1,4 @@
-import {playerIcon} from './player-icons.mjs?v=20261015-outlaw13';
+import {playerIcon} from './player-icons.mjs?v=20261015-outlaw15';
 let openChoice=null,sequence=0;
 const closeChoice=()=>{if(!openChoice)return;openChoice.menu.hidden=true;openChoice.button.setAttribute('aria-expanded','false');openChoice=null};
 document.addEventListener('pointerdown',event=>{if(openChoice&&!openChoice.root.contains(event.target))closeChoice()});

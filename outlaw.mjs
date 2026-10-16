@@ -1,10 +1,10 @@
-import {enhanceSettingsControls,installSourceReordering} from './settings-controls.mjs?v=20261015-outlaw13';
-import {renderSourceDirectory} from './source-directory.mjs?v=20261015-outlaw13';
-import {renderPerson} from './person.mjs?v=20261015-outlaw13';
-import {installCommunity} from './community.mjs?v=20261015-outlaw13';
-import {playerIcon} from './player-icons.mjs?v=20261015-outlaw13';
-import {installWatchParty} from './watch-party.mjs?v=20261015-outlaw13';
-import {providers,readAds,setAds} from './provider-player.mjs?v=20261015-outlaw13';
+import {enhanceSettingsControls,installSourceReordering} from './settings-controls.mjs?v=20261015-outlaw15';
+import {renderSourceDirectory} from './source-directory.mjs?v=20261015-outlaw15';
+import {renderPerson} from './person.mjs?v=20261015-outlaw15';
+import {installCommunity} from './community.mjs?v=20261015-outlaw15';
+import {playerIcon} from './player-icons.mjs?v=20261015-outlaw15';
+import {installWatchParty} from './watch-party.mjs?v=20261015-outlaw15';
+import {providers,readAds,setAds} from './provider-player.mjs?v=20261015-outlaw15';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const uid=()=>crypto.randomUUID();
 export function installOutlaw(ctx){

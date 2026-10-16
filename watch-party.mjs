@@ -1,4 +1,4 @@
-import {SyncRoom} from './watch-party-sync.mjs?v=20261015-outlaw13';
+import {SyncRoom} from './watch-party-sync.mjs?v=20261015-outlaw15';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function installWatchParty(ctx){
  let session=null,state=null,host=null,ui=null,applied=0,lastStatus={},native=false;
