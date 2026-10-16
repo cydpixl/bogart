@@ -1,4 +1,4 @@
-import {playerIcon} from './player-icons.mjs?v=20261015-outlaw12';
+import {playerIcon} from './player-icons.mjs?v=20261015-outlaw13';
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export async function renderPerson(ctx,id){
  const {app,metadata,remember,posterCard,normalizeLinks,read,write}=ctx;app.innerHTML='<section class="browse-page person-page"><p class="catalog-status">Loading profile…</p></section>';
