@@ -1,1 +1,4 @@
-<!doctype html><html><head><meta charset="utf-8"><title>Outlaw Movies</title><script>const base="/bogart/";location.replace(base+"?route="+encodeURIComponent(location.pathname.slice(base.length)));</script></head><body><a href="/bogart/">Open Outlaw Movies</a></body></html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spex</title><link rel="canonical" href="https://bogart.pages.dev/"><meta name="robots" content="noindex"><script>
+const old=new URL(location.href),routed=old.searchParams.get('route');let path=old.pathname.replace(/^\/bogart(?:\/|$)/,'/');if(routed&&!routed.includes('://')){path='/'+routed.replace(/^\//,'');old.searchParams.delete('route')}const current=new URL(path,'https://bogart.pages.dev');current.search=old.search;current.hash=old.hash;location.replace(current.href);
+</script></head><body><p>Opening Spex… <a href="https://bogart.pages.dev/">Open Spex</a></p></body></html>
