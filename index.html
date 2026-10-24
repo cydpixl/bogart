@@ -1,4 +1,4 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spex</title><link rel="canonical" href="https://bogart.pages.dev/"><meta name="robots" content="noindex"><script>
-const old=new URL(location.href),routed=old.searchParams.get('route');let path=old.pathname.replace(/^\/bogart(?:\/|$)/,'/');if(routed&&!routed.includes('://')){path='/'+routed.replace(/^\//,'');old.searchParams.delete('route')}const current=new URL(path,'https://bogart.pages.dev');current.search=old.search;current.hash=old.hash;location.replace(current.href);
+const old=new URL(location.href),routed=old.searchParams.get('route');let path=old.pathname.replace(/^\/bogart(?:\/|$)/,'/');if(routed&&!routed.includes('://')){path='/'+routed.replace(/^\//,'');old.searchParams.delete('route')}const current=new URL('https://bogart.pages.dev');current.pathname=path;current.search=old.search;current.hash=old.hash;location.replace(current.href);
 </script></head><body><p>Opening Spex… <a href="https://bogart.pages.dev/">Open Spex</a></p></body></html>
